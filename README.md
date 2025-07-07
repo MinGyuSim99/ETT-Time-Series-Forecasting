@@ -1,0 +1,5 @@
+[Advanced Time Series Forecasting for Oil Temperature with Deep Learning and Ensemble Methods.pdf](https://github.com/user-attachments/files/21108372/Advanced.Time.Series.Forecasting.for.Oil.Temperature.with.Deep.Learning.and.Ensemble.Methods.pdf)
+
+This project forecasts the Oil Temperature (OT) from the ETT (Electricity Transformer Temperature) dataset using DLinear and Transformer models. The DLinear approach uses a conditional ensemble strategy that dynamically combines predictions from 'local expert' models specialized for high and low-temperature ranges. The Transformer model is optimized with an asymmetric weighted loss function and weighted random sampling to improve prediction accuracy in critical high-temperature regions.
+
+Finally, a dynamic blending technique combines the outputs from both models, while post-processing steps like anchoring (aligning the initial forecast with the last observed value) and smoothing are applied to maximize performance. Throughout the project, strict principles were applied to prevent data leakage, ensuring model robustnes
